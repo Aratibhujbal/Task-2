@@ -37,9 +37,9 @@ function Form() {
       <div className='container mt-4 border border-black p-2'>
         <form onSubmit={handleSubmit}>
           <div className='row'>
-            <div className='col-8'>
+            {/* <div className='col-10'> */}
 
-              <div className='col-4 mb-4'>
+              <div className='col-6 mb-4'>
                 <div className="form-group ">
                   <label >First Name</label>
                   <input className="form-control"
@@ -50,7 +50,7 @@ function Form() {
                   />
                 </div>
               </div>
-              <div className='col-4 mb-4'>
+              <div className='col-6 mb-4'>
                 <div className="form-group ">
                   <label >Last Name</label>
                   <input className="form-control"
@@ -103,7 +103,7 @@ function Form() {
                   />
                 </div>
               </div>}
-            </div>
+            {/* </div> */}
           </div>
 
           <button type="submit" className="btn btn-success mt-4">Submit</button>
